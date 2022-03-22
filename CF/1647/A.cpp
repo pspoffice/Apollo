@@ -1,7 +1,6 @@
 // https://codeforces.com/contest/1647/problem/A
 
 #include <iostream>
-#include <string>
 
 using namespace std;
 
