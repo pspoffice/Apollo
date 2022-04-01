@@ -10,9 +10,7 @@ using namespace std;
 auto Solve() -> void {
   int n, m;
   cin >> n >> m;
-  vector<int> a(n + 1);
-  vector<int> b(m + 1);
-  vector<int> c(n + m + 1);
+  vector<int> a(n + 1), b(m + 1), c(n + m + 1);
   for (int i = 0; i <= n; i++) {
     cin >> a[i];
   }
