@@ -36,7 +36,7 @@ auto Solve() -> void {
         ep[i] = true;
     }
   }
-  // Outut
+  // Output
   if (dp[n - 1] || ep[n - 1])
     cout << "Yes" << '\n';
   else
