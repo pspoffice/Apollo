@@ -23,7 +23,6 @@ public:
   auto Solve() -> void {
     string s;
     cin >> s >> q;
-    cout << s << '\n';
     x = (s[0] - '0') * 600 + (s[1] - '0') * 60 + (s[3] - '0') * 10 +
         (s[4] - '0');
     output = 0;
